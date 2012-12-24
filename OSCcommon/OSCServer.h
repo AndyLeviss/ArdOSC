@@ -25,7 +25,7 @@ private:
     int16_t _sock;
     uint16_t _port;
     
-	uint8_t _rcvData[kMaxRecieveData];
+	uint8_t _rcvData[kMaxReceiveData];
 	
 
     OSCDecoder::OSCDecoder _decoder;
@@ -41,11 +41,11 @@ public:
     OSCServer(void);
 	~OSCServer(void);
     
-	int16_t begin(uint16_t _recievePort);
+	int16_t begin(uint16_t _receivePort);
 	void stop(void);
 	
 	
-    int16_t aviableCheck(void);
+    int16_t availableCheck(void);
 
 
     //_adr osc address string pointer - "/ard/aaa"

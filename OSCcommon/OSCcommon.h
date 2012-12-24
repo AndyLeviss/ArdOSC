@@ -22,7 +22,7 @@ extern "C" {
 }
 
 #define kMaxAugument	16
-#define kMaxRecieveData	100
+#define kMaxReceiveData	100
 #define kMaxOSCAdrCharactor	255
 
 #define CULC_ALIGNMENT(x) (x+4)&0xfffc
